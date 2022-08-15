@@ -20,7 +20,7 @@ export const RickAndMortyApp = () => {
   return (
     <div>
       <div className="boxImg">
-        <img className="Fondo" src="./src/componentes/img/Rick.jpg" alt="" />
+        <img className="Fondo" src="https://i.pinimg.com/564x/26/7a/c4/267ac49d05f91fc8c8812ddafac01eae.jpg" alt="" />
       </div>
 
       <Serch setvalueSercht={setvalueSercht} />

@@ -20,11 +20,11 @@ html{
 .boxImg{
     width: 100%;
     height: 20em;
-    overflow: hidden;
+        overflow: hidden;
 }
 .boxImg img{
     width: 100%;
-    height: 200%;
+    height: 160%;
     position: relative;
     top: -10em;
     object-position: center;
@@ -98,20 +98,19 @@ ul{
         height: 2em;
         margin: auto 0em;
         border-style: none;
-        border-radius: 5px 0px 0px 5px;
+        border-radius: 5px;
     }
     
     .Search button{
      position: relative;
      border-style: none;
      background-color: #000000;
-     border-radius: 0px 10px 10px 0px;
-     width: 2.5em;
-     height: 2.5em;
+     border-radius: 5px;
      display: flex;
      justify-content: center;
      transition: 200ms ease-in-out;
      margin: auto 0em;
+     left: 1em;
     }
     .Search button:hover{
         background-color: var(--colorBlanco);

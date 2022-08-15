@@ -27,3 +27,9 @@ svg{
     text-align: center;
     height: 20px;
 }
+.searchText{
+    color: rgb(255, 255, 255);
+}
+.searchText:hover{
+    color: rgb(0, 0, 0);
+}

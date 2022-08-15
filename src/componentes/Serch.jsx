@@ -11,7 +11,7 @@ const Serch = ({setvalueSercht}) => {
   return (
     <form action="" onSubmit={searchLocation} className='Search'>
         <input type="text" placeholder='Ingrese solo numeros'/>
-        <button><img src="./src/componentes/img/search.png" alt="" /></button>
+        <button className='searchText'>Search</button>
         
     </form>
   )
