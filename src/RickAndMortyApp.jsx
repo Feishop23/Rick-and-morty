@@ -20,11 +20,12 @@ export const RickAndMortyApp = () => {
   return (
     <div>
       <div className="boxImg">
+        
         <img className="Fondo" src="https://i.pinimg.com/564x/26/7a/c4/267ac49d05f91fc8c8812ddafac01eae.jpg" alt="" />
       </div>
 
       <Serch setvalueSercht={setvalueSercht} />
-      <LocationInfo location={location} />
+        <LocationInfo location={location} />
       <div className="containerCard">
         {location?.residents
           .slice((pagina - 1) * porPagina, (pagina - 1) * porPagina + porPagina)
